@@ -22,7 +22,7 @@ public class AdvancedBooleanLogic {
      * b1 OR b2, BUT NOT BOTH
      * @param b1 first boolean to be compared.
      * @param b2 second boolean to be compared.
-     * @return true if either b1 or b2 is true, but false if they are both true or both false.
+     * @return true if either b1 or b2 is true, but false if they are both true or both false
      */
     public boolean returnExclusiveOr(boolean b1, boolean b2){
         return ((b1 || b2) == true) && !(b1 == b2);
